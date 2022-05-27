@@ -1,0 +1,21 @@
+<h4 class="title-of-text-part">Показники Автоном</h4>
+<div class="line-with-text">
+  <div class="text-column">
+    <h1 class="title">200</h1>
+    <p class="subtext">ПРАЦІВНИКІВ</p>
+  </div>
+  <div class="text-column">
+    <h1 class="title title-for-padding">5</h1>
+    <p class="subtext">ПІДРОЗДІЛІВ</p>
+  </div>
+</div>
+<div class="line-with-text">
+  <div class="text-column">
+    <h1 class="title">200M</h1>
+    <p class="subtext">КАПІТАЛУ</p>
+  </div>
+  <div class="text-column">
+    <h1 class="title">326</h1>
+    <p class="subtext">ПАРТНЕРІВ</p>
+  </div>
+</div>
