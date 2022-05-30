@@ -68,11 +68,15 @@ p {
   padding-top: 20px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .main-title {
   font-family: "Montserrat", sans-serif;
   font-size: 64px;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 160px;
   letter-spacing: 6px;
   font-weight: 400;
 }
