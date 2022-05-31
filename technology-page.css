@@ -173,6 +173,110 @@ black-box-text .black-box > *:nth-child(1),
   padding-right: 16%;
   padding-bottom: 20px;
 }
+.black-box-with-gradient-second-part {
+  background: white;
+  margin-top: 50px;
+}
+
+.black-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-column-title-black {
+  color: black;
+}
+
+.contacts-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+}
+.box-with-contacts {
+  margin-top: 120px;
+}
+
+.left-text-part-title {
+  letter-spacing: 0.35em;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.subtext {
+  padding-right: 100px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30px;
+}
+.contacts-sub-text-for-padding {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.line-with-text-second-part {
+  display: flex;
+}
+.contacts-text-sub-title {
+  letter-spacing: 0.08em;
+  font-size: 18px;
+}
+
+.contact-sub-text {
+  letter-spacing: 0.05em;
+  font-size: 16px;
+}
+
+.white-little-title-black {
+  color: black;
+}
+
+.big-sub-text-black {
+  color: black;
+}
+
+black-box-text .black-box > *:nth-child(1),
+.black-box > *:nth-child(2) {
+  width: 50%;
+}
+
+.little-sub-text-black {
+  font-size: 16px;
+  color: black;
+  padding-top: 35px;
+  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.box-with-only-text {
+  padding-top: 15%;
+  padding-left: 15%;
+  padding-bottom: 15%;
+}
+
+.contacts-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+}
+
+.email-row {
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+.box-with-buttons {
+  margin-top: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 1024px) {
   .header-nav {
     visibility: hidden;
@@ -220,6 +324,21 @@ black-box-text .black-box > *:nth-child(1),
   .text-wrapper-of-two-columns {
     display: flex;
     flex-direction: column;
+  }
+  .footer-wrapepr {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-with-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text-button-black-second {
+    margin-top: 10px;
   }
 }
 
