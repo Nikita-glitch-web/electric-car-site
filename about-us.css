@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-background {
+  background: none;
+  width: 100vw;
+  background-size: cover;
+}
+
+.header-nav-text {
+  font-size: 22px;
+  letter-spacing: 6px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.text-button-nav {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.text-button-black {
+  width: 142px;
+  height: 33px;
+  border-radius: 14px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1570px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.first-text-title {
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.first-sub-text {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  letter-spacing: 0.08em;
+  line-height: 43px;
+}
+
+.main-page-content {
+  margin-top: 130px;
+}
+
+.black-box-with-gradient-second-part {
+  background: white;
+  margin-top: 50px;
+}
+
+.black-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+black-box-text .black-box > *:nth-child(1),
+.black-box > *:nth-child(2) {
+  width: 50%;
+}
+
+.box-image {
+  width: 100%;
+  display: block;
+}
+
+.white-little-title {
+  font-size: 16px;
+  color: white;
+}
+
+.black-big-title {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.img {
+  border-radius: 20px;
+}
+.big-subtext {
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+.second-big-subtext {
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+}
+
+.little-title {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+
+.big-tile {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+
+.big-sub-text {
+  font-size: 24px;
+  color: white;
+  padding-top: 35px;
+  line-height: 43px;
+}
+
+.little-sub-text {
+  font-size: 16px;
+  color: white;
+  padding-top: 55px;
+  line-height: 30px;
+}
